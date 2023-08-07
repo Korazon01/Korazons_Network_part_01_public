@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Korazon's website</title>
+        <link rel = "stylesheet" href = "static/css/welcome_page_css.css">
+    </head>
+    <body>
+
+        <div id = 'welcome_div__welcome_page'>
+            <p id = 'welcome_text__welcome_page'>Welcome to Korazon's website</p>
+        </div>
+
+
+        <div id = 'the_form__welcome_page'>
+
+            <p id = 'the_welcome_say__welcome_page'>To get in you have to sign in or sign up</p>
+
+            <div id = 'form__welcome_page'>
+
+                <form action = 'http://korazonsproject01.ru/welcome_page/authentication' method = 'post' onsubmit="return check_form(this)">
+
+                    <div id = 'form_name__welcome_page'>
+                        <label class = 'label_text__welcome_page'>To write your name:</label><br>
+                        <input type = text id = 'write_name__welcome_page' placeholder="name" name = 'name_form__welcome_page'>
+                    </div>
+
+                    <div id = 'form_password__welcome_page'>
+                        <label class = 'label_text__welcome_page'>To write your password:</label><br>
+                        <input type = password id = write_password__welcome_page placeholder="password" name = 'password_form__welcome_page'>
+                    </div>
+
+                    <div id = 'form_choose__welcome_page'>
+                        <label class = 'label_text__welcome_page'>To sign in:</label>
+                        <input type = radio name = 'choose__welcome_page' value = 'in'>
+                        <label class = 'label_text__welcome_page'>To sign up:</label>
+                        <input type = radio name = 'choose__welcome_page' value = 'up'>
+                    </div>
+
+                    <input type = submit id = 'submit__welcome_page' value = 'Send'>
+
+                </form>
+
+
+                <button id = 'forgot_pass_button__welcome_page'>I forgot my password</button>
+
+                <div id = 'forgot_pass_div__welcome_page'>
+                    <p id = 'forgot_pass_text__welcome_page'>To forget passwords is very bad , if you want to go in your account you have to remember</p>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+        <script src = 'static/js/welcome_page_js.js'></script>
+    </body>
+</html>

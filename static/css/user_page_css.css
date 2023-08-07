@@ -1,0 +1,266 @@
+#cap_div__user_page{
+    float:left;
+    height:100px;
+    width:100%;
+    background-color:#8080c8;
+    text-align:center;
+    line-height:100px;
+    margin:0px;
+}
+
+
+#cap_text__user_page{
+    font-size:70px;
+    font-weight:lighter;
+
+    margin:0px;
+
+}
+
+
+#user_info_div__user_page{
+    float:left;
+    width:20%;
+    height:700px;
+    position:relative;
+    left:40%;
+    right:40%;
+    top:100px;
+    border:5px solid silver;
+    border-color:#a1a6e0;
+}
+
+
+
+#photo_div__user_page{
+    float:left;
+    width:50%;
+    position:relative;
+    left:25%;
+    right:25%;
+    top:10px;
+}
+
+#photo_img__user_page{
+
+    float:left;
+    height:100%;
+    border-radius:150px;
+    width:100%;
+    border:5px solid silver;
+    border-color:#41478c;
+}
+
+
+#the_info__user_page{
+    float:left;
+    width:100%;
+    height:300px;
+    position:relative;
+    top:50px;
+}
+
+
+
+#info_name__user_page{
+    position:relative;
+    left:10px;
+
+}
+
+
+
+#label_name__user_page{
+    float:left;
+    font-size:30px;
+    width:28%;
+}
+
+#the_name__user_page{
+    float:left;
+    margin:0px;
+    width:72%;
+    position:relative;
+    left:20px;
+    font-size:30px;
+}
+
+
+#info_password__user_page{
+    position:relative;
+    left:10px;
+    top:20px;
+}
+
+#label_password__user_page{
+    float:left;
+    font-size:30px;
+
+}
+
+#the_password__user_page{
+    float:left;
+    margin:0px;
+    width:50%;
+    position:relative;
+    left:20px;
+    font-size:30px;
+}
+
+#info_liked__user_page{
+    position:relative;
+    left:10px;
+    top:40px;
+}
+
+#label_liked__user_page{
+    float:left;
+    font-size:30px;
+
+}
+
+#the_liked__user_page{
+    float:left;
+    margin:0px;
+    width:50%;
+    position:relative;
+
+    left:20px;
+    font-size:30px;
+}
+
+#info_text__user_page{
+    position:relative;
+    left:10px;
+    top:60px;
+
+}
+
+#label_text__user_page{
+    float:left;
+    font-size:30px;
+
+}
+
+#button_text__user_page{
+    float:left;
+    margin:0px;
+
+    position:relative;
+    left:20px;
+    font-size:30px;
+    border:0px;
+    border-radius:5px;
+    background-color:#ab64d3;
+}
+
+
+#text__user_page{
+    float:left;
+    width:95%;
+    height:165px;
+    position:relative;
+    top:65px;
+    border:3px solid silver;
+    margin:10px;
+    border-color:#b7b7ff;
+    display:none;
+
+}
+
+#the_text__user_page{
+    margin:10px;
+
+}
+
+#functional_button__user_page{
+    font-size:25px;
+    border:0px;
+    background-color:#ab64d3;
+    border-radius:5px;
+    position:relative;
+    bottom:10px;
+}
+
+
+#edit_user__user_page{
+    width:20%;
+    height:400px;
+    float:left;
+    position:relative;
+    top:300px;
+}
+
+#the_edit__user_page{
+    float:left;
+    width:100%;
+    height:450px;
+    border:5px solid silver;
+    border-color:#7b29a4;
+    position:relative;
+    right:40%;
+    display:none;
+
+}
+
+#edit_name_div__user_page{
+    position:relative;
+    top:25px;
+    left:5%;
+}
+
+
+.edit_label__user_page{
+    font-size:30px;
+}
+
+.edit_button__user_page{
+    font-size:25px;
+    border:0px;
+    background-color:#ab64d3;
+    border-radius:5px;
+
+}
+
+#edit_password_div__user_page{
+    position:relative;
+    top:50px;
+    left:5%;
+}
+
+#edit_text_div__user_page{
+    position:relative;
+    top:75px;
+    left:5%;
+}
+
+#get_out_div__user_page{
+    position:relative;
+    top:100px;
+    left:5%;
+}
+
+
+#new_name_div__user_page,#new_password_div__user_page,#new_text_div__user_page{
+   margin:20px;
+   display:none;
+}
+
+
+#send_new_name__user_page,#send_new_password__user_page,#send_new_text__user_page{
+    position:relative;
+    bottom:10px;
+    left:10px;
+    border:0px;
+    background-color:red;
+    font-size:25px;
+    border-radius:5px;
+
+
+}
+
+
+
+
+
+

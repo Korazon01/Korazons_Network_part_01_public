@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>user page</title>
+        <link rel = 'stylesheet' href = 'static/css/user_page_css.css'>
+    </head>
+    <body>
+
+        <div id = 'cap_div__user_page'>
+
+            <p id = 'cap_text__user_page'>Korazon's_Network</p>
+
+        </div>
+
+
+        <div id = 'user_info_div__user_page'>
+
+            <div id = 'photo_div__user_page'>
+                <img id = 'photo_img__user_page' src = 'https://steamuserimages-a.akamaihd.net/ugc/1681518974746784067/BE4B45A16752E5B89FC937F6AC44FEE0FA5CD0F6/?imw=512&amp;&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=false'>
+            </div>
+
+            <div id = 'the_info__user_page'>
+
+                <div id = 'info_name__user_page'>
+                    <label id =  'label_name__user_page'>Your name: </label>
+                    <p id = 'the_name__user_page'>{{name}}</p>
+                </div>
+
+                <div id = 'info_password__user_page'>
+                    <label id =  'label_password__user_page'>Your password: </label>
+                    <p id = 'the_password__user_page'>{{password}}</p>
+                </div>
+
+                <div id = 'info_liked__user_page'>
+
+                    <label id = 'label_liked__user_page'>Your liked:</label>
+                    <p id = 'the_liked__user_page'>{{liked}}</p>
+
+                </div>
+
+                <div id = 'info_text__user_page'>
+
+                    <label id = 'label_text__user_page'>Your text:</label>
+                    <input type = button id = 'button_text__user_page' value = 'text'>
+
+                </div>
+
+                <div id = 'text__user_page'>
+
+                    <p id = 'the_text__user_page'>{{text}}</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div id = 'edit_user__user_page'>
+
+            <input type = button id = 'functional_button__user_page' value = 'functional'>
+
+            <div id = 'the_edit__user_page'>
+
+                <div id = 'edit_name_div__user_page'>
+                    <label class = 'edit_label__user_page'>To edit name:</label>
+                    <input type = button class = 'edit_button__user_page' value = 'edit name' id = 'the_edit_name'><br>
+
+                    <div id = 'new_name_div__user_page' >
+                        <form method = 'post' action="http://korazonsproject01.ru/user_page/new_info">
+                            <textarea id = 'new_name__user_page' name = 'new_name'></textarea>
+                            <input type = submit id = 'send_new_name__user_page' value = 'Send'>
+                        </form>
+                    </div>
+
+                </div>
+
+
+
+
+                <div id = 'edit_password_div__user_page'>
+                    <label class = 'edit_label__user_page'>To edit password:</label>
+                    <input type = button class = 'edit_button__user_page' value = 'edit password' id = 'the_edit_password'>
+
+                    <div id = 'new_password_div__user_page'>
+                        <form method = 'post' action="http://korazonsproject01.ru/user_page/new_info">
+                            <textarea id = 'new_password__user_page' name = 'new_password'></textarea>
+                            <input type = submit id = 'send_new_password__user_page' value = 'Send'>
+                        </form>
+                    </div>
+
+                </div>
+
+
+
+                <div id = 'edit_text_div__user_page'>
+                    <label class = 'edit_label__user_page'>To edit text:</label>
+                    <input type = button class = 'edit_button__user_page' value = 'edit text' id = 'the_edit_text'>
+
+                    <div id = 'new_text_div__user_page'>
+                        <form method = 'post' action="http://korazonsproject01.ru/user_page/new_info">
+                            <textarea id = 'new_text__user_page' name = 'new_text'></textarea>
+                            <input type = submit id = 'send_new_text__user_page' value = 'Send'>
+                        </form>
+                    </div>
+
+                </div>
+
+
+
+
+                <div id = 'get_out_div__user_page'>
+                    <form method = 'get' action = 'http://korazonsproject01.ru/user_page/get_out'>
+                        <label class = 'edit_label__user_page'>To get out:</label>
+                        <input type = submit class = 'edit_button__user_page' value = 'get out'>
+                    </form>
+                </div>
+
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+        <script src = 'static/js/user_page_js.js'></script>
+
+    </body>
+</html>

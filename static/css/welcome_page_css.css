@@ -1,0 +1,104 @@
+#welcome_div__welcome_page{
+    float:left;
+    height:80px;
+    width:100%;
+    border:5px solid silver;
+    text-align:center;
+    line-height:80px;
+}
+
+#welcome_text__welcome_page{
+    margin:0px;
+    font-size:40px;
+    font-weight:bolder;
+
+}
+
+
+#the_form__welcome_page{
+    float:left;
+    height:550px;
+    width:20%;
+    border:3px solid silver;
+    position:relative;
+    left:40%;
+    top:250px;
+
+}
+
+#the_welcome_say__welcome_page{
+    font-size:30px;
+    margin:12px;
+}
+
+
+
+#form_name__welcome_page{
+    position:relative;
+    left:10%;
+    top:50px;
+}
+
+.label_text__welcome_page{
+    font-size:20px;
+}
+
+#write_name__welcome_page,#write_password__welcome_page{
+    height:25px;
+    border:3px solid silver;
+    border-color:#7c7c7c;
+}
+
+#form_password__welcome_page{
+    position:relative;
+    left:10%;
+    top:80px;
+}
+
+#form_choose__welcome_page{
+    position:relative;
+    left:10%;
+    top:110px;
+}
+
+#submit__welcome_page{
+    position:relative;
+    left:10%;
+    top:130px;
+    height:30px;
+    width:100px;
+    font-size:18px;
+    border:3px solid silver;
+    border-color:#484848;
+    border-radius:5px;
+}
+
+#forgot_pass_button__welcome_page{
+    position:relative;
+    left:10%;
+    top:180px;
+    border:0px;
+    background-color:white;
+    font-size:17px;
+
+}
+
+#forgot_pass_div__welcome_page{
+    position:relative;
+    top:180px;
+    margin:10px;
+    border:3px solid silver;
+    border-color:red;
+    background-color:#f97f7f;
+    display:none;
+}
+
+#forgot_pass_text__welcome_page{
+    margin:10px;
+    font-size:20px;
+}
+
+
+
+
+
